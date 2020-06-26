@@ -88,7 +88,7 @@ function Child() {
                 </label>
                 <br/><br/>
 
-                <input className="Btn" type='submit' value="Add Transaction"   />
+                <input className="Btnn" type='submit' value="Add Transaction"   />
             </form>
 
 
