@@ -1,0 +1,103 @@
+
+*{
+  box-sizing: border-box;
+  background-color: #F8F8FF;
+}
+
+.Container{
+  max-width: 450px;
+  min-height: 600px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px gray ;
+  background-color:#F8F8FF;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding:40px 50px;  
+}
+
+.text-center {
+  text-align: center;
+  /* color: blueviolet; */
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Balance{
+  margin-top: 30px;
+  padding-left: 10px;
+}
+
+.bal-amount{
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.Exp-Container{
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  padding:5px 25px;
+  text-transform: uppercase;
+  border-radius: 30px;
+  box-shadow: 0 0 10px gray ;
+}
+
+.Exp-Container > h3{
+  background-color: white;
+}
+
+.transaction-list{
+  margin: 0;
+  padding:0;
+}
+
+.transaction-list > li {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 0 10px gray ;
+  margin: 10px;
+  height: 40px;
+  padding:10px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.red{
+  /* color: white; */
+  border-right: 7px solid red;
+  /* border-left: 7px solid red; */
+}
+
+.green{
+  /* color: white; */
+  border-right: 7px solid green;
+  /* border-left: 7px solid darkgreen; */
+}
+
+.Income{
+  color: green;
+  font-size: 30px;
+  background-color: white;
+  
+}
+
+.Expense{
+  color: red;
+  font-size: 30px;
+  background-color: white;
+}
+
+.Transaction-Form input{
+  width: 100%;
+  padding:5px 10px;
+  margin-top: 10px;
+  border-radius: 10px;
+  margin-bottom: 7px;
+  height: 40px;
+}
+
+.Btn{
+  background-color:blueviolet;
+  color: #F8F8FF;
+  font-weight: bolder;
+  font-size: 16px;
+}
